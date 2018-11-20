@@ -30,7 +30,7 @@ object Main extends App {
 
 
   //In the case that the file has not been found by its ID name it will be searched by class and Title
-  //Sorry for printing and not logging, been having some issues in this pc :S
+  //Sorry for printing and not logging and being so untidy, been having lots of issues with this pc, my bad not checking all before starting
 
   findElementById(new File(resourcePath), targetElementId).map { button =>
     button.attributes().asList().map(attr => s"${attr.getKey}=${attr.getValue}").mkString(", ")
