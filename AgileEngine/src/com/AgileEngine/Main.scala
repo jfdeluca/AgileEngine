@@ -69,11 +69,5 @@ object Main extends App{
 
    }
 
-
-  def findElementById(htmlFile: File, targetElementId: String): Try[Element] = Try {
-    Jsoup.parse(htmlFile, CHARSET_NAME, htmlFile.getAbsolutePath)
-  }.map(_.gegetElementById(targetElementId))
-
-
 }
 
