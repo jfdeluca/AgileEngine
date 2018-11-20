@@ -57,17 +57,19 @@ object Main extends App{
     }
   }
 
-   def getAllByClass()= {
-     findElementsByQuery(new File(resourcePath), cssQuery).map { buttons =>
-       buttons.iterator().toList.map { button =>
-         button.attributes().toList.map(attr => s"${attr.getKey}=${attr.getValue}").mkString(", ")
-       }
-     } match {
-       case Success(attrsList) => attrsList.foreach { attrs => println("Target element attrs: [{}]", attrs) }
-       case Failure(ex) => println("Error occurred.", ex)
-     }
+  def getAllByClass()= {
+    findElementsByQuery(new File(resourcePath), cssQuery).map { buttons =>
+      buttons.iterator().toList.map { button =>
+        button.attributes().toList.map(attr => s"${attr.getKey}=${attr.getValue}").mkString(", ")
+      }
+    } match {
+      case Success(attrsList) => attrsList.foreach { attrs => println("Target element attrs: [{}]", attrs) }
+      case Failure(ex) => println("Error occurred.", ex)
+    }
 
-   }
+  }
+
+
 
 }
 
