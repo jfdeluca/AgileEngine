@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9a18f475-ada2-40cf-9574-e53d3f44183d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/hydra.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sbt.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/AgileEngine.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/AgileEngine.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/AgileEngine/Main.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/AgileEngine/Main.scala" afterDir="false" />
-    </list>
+    <list default="true" id="9a18f475-ada2-40cf-9574-e53d3f44183d" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +34,7 @@
         <entry file="file://$PROJECT_DIR$/src/com/AgileEngine/Main.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+              <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
               <folding>
                 <element signature="e#25#44#0" expanded="true" />
               </folding>
@@ -102,7 +94,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542742505119" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542744538403" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
@@ -201,7 +193,7 @@
     <entry file="file://$PROJECT_DIR$/src/com/AgileEngine/Main.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="75" lean-forward="true" selection-start-line="75" selection-end-line="75" />
+          <caret line="94" lean-forward="true" selection-start-line="94" selection-end-line="94" />
           <folding>
             <element signature="e#25#44#0" expanded="true" />
           </folding>
